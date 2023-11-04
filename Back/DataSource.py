@@ -1,6 +1,8 @@
 import requests
-s_city = "Petersburg,RU"
+
+#s_city = WeatherApp.return_text()
 city_id = 472757
+city_name = 'Волгоград'
 appid = '27aa0b5f5cef20217a56cc98bd112f2f'
 try:
     res = requests.get("http://api.openweathermap.org/data/2.5/weather",
